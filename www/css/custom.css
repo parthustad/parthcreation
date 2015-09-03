@@ -1,0 +1,65 @@
+.carousel-control.left, .carousel-control.right {
+  background: none !important;
+  filter: progid: none !important;
+  outline: 0;
+ }
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: #3f51b5
+   
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    background-color: #3f51b5
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: #fff;
+    background-color: #3f51b5
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #3f51b5
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #fff;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #3f51b5;
+}
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(../fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+   font-family: op;
+   src: url(../fonts/OpenSans-Light.ttf);
+}
+
+.opfnt{font-family: op;    font-size: 18px;
+    line-height: 32px; font-weight:500}
+	
+	
+	
+#custom-bootstrap-menu{   
+   font-family: myFirstFont;
+}
+.underline{ border:2px solid #3f51b5}
+.content{ color:#000000}
+.title{ color:#2e5eb7;font-weight: 700;}
+.footer-color{background-color:#000}
